@@ -10,6 +10,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      output:
+    css: [rladies-fonts]
 ---
 
 ```{r setup, include=FALSE}
