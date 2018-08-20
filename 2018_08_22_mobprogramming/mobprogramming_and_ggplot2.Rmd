@@ -1,8 +1,8 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "RLadies Santa Barbara"
+subtitle: "Mob Programming: coding in small teams"
+author: ""
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,7 +11,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       output:
-    css: [rladies-fonts]
+    css: ["default", "rladies", "rladies-fonts"] #https://alison.rbind.io/post/r-ladies-slides/
 ---
 
 ```{r setup, include=FALSE}
@@ -20,70 +20,71 @@ options(htmltools.dir.version = FALSE)
 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 
-???
+<!---![](images/rladies_welcome.png) 
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+Above isn't working; need to figure it out, hopefully as a background slide--->
 
 ---
 class: center, middle
 
-# xaringan
+# Mob Programming
 
-### /ʃæ.'riŋ.ɡæn/
+[A quick primer](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
 
 ---
 class: inverse, center, middle
 
-# Get Started
+# The Plan
 
 ---
 
-# Hello World
+# `ggplot2` with National Parks data
 
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
-
-```{r eval=FALSE, tidy=FALSE}
-devtools::install_github("yihui/xaringan")
-```
+We'll be coding together with `ggplot2`, and a bit of `dplyr`
 
 --
 
-You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
-
-- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
+- `ggplot` is a graphics package specifically built to help you iteratively create customized graphs
 
 --
 
-- Click the `Knit` button to compile it;
+- `dplyr` is a package for data wrangling; it has 5 main functions to do frequent tasks
 
---
-
-- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
-
-.footnote[
-[1] 中文用户请看[这份教程](http://slides.yihui.name/xaringan/zh-CN.html)
-
-[2] See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.
-]
-
----
-background-image: url(`r xaringan:::karl`)
-background-position: 50% 50%
-class: center, bottom, inverse
-
-# You only live once!
+We'll be exploring data for visits to US National Parks. 
 
 ---
 
-# Hello Ninja
+# More about `ggplot2`
 
-As a presentation ninja, you certainly should not be satisfied by the "Hello World" example. You need to understand more about two things:
+---
 
-1. The [remark.js](https://remarkjs.com) library;
+# More about National Parks data
 
-1. The **xaringan** package;
+---
 
-Basically **xaringan** injected the chakra of R Markdown (minus Pandoc) into **remark.js**. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (**knitr**).
+# Quick demo
+
+This is what your team will do:
+
+1. Use one computer that has RStudio installed
+
+1. Go to <https://github.com/jules32/rladies-ggplot2>
+
+1. Download or clone with the green button
+
+Then, in RStudio: 
+
+1. Open `national_parks_analysis.Rmd`
+
+1. Walk through the demo code
+
+1. Answer the questions provided, or ask your own!
+
+---
+
+# These slides are all templates to delete for RLadies
+
+But we can see what's possible and learn from them!
 
 ---
 
@@ -113,7 +114,7 @@ class: center, bottom, inverse
 ---
 class: inverse, middle, center
 
-# Using xaringan
+# Have fun!
 
 ---
 
