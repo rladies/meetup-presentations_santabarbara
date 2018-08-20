@@ -40,21 +40,20 @@ class: inverse, center, middle
 
 # `ggplot2` with National Parks data
 
-We'll be coding together with `ggplot2`, and a bit of `dplyr`
+We'll be coding together with `ggplot2`
 
 --
 
 - `ggplot` is a graphics package specifically built to help you iteratively create customized graphs
 
---
-
-- `dplyr` is a package for data wrangling; it has 5 main functions to do frequent tasks
 
 We'll be exploring data for visits to US National Parks. 
 
+head(something to explain data)
+
 ---
 
-# More about `ggplot2`
+# Getting started with `ggplot2`
 
 To make the most basic graph, you need to tell R three things:
 
@@ -64,25 +63,21 @@ To make the most basic graph, you need to tell R three things:
 
 …everything beyond that is optional customization.
 
+
+Screenshot of aes() (Iwen, otherwise from cheatsheet)
+
+```{r, eval=FALSE}
+ggplot(data = my_data, aes(x, y)) +
+  geom_point() # many geometries to choose from
+```
+
+
+<!--
 Anatomy of ggplot tidyverse reference
 
 - data
 - aesthetics
-
----
-
-# More about National Parks data
-
----
-
-# Helpful functions from `dplyr`
-
-Also part of the `tidyverse`
-
-- filter
-- select
-- %>%
-
+-->
 
 ---
 
@@ -96,11 +91,19 @@ np_visit <- read_csv("data/np_visit.csv")
 dino_nm <- np_visit %>% 
   filter(park_name == "Dinosaur National Monument")
   
+```
+
+---
+
+# Quick demo
+
+```{r}
+## plot
 ggplot(data = dino_nm, aes(x = year, y = visitors)) +
   geom_point()
 ```
 
----
+
 
 # Your turn!
 

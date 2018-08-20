@@ -99,14 +99,21 @@ np_visit &lt;- read_csv("data/np_visit.csv")
 
 dino_nm &lt;- np_visit %&gt;% 
   filter(park_name == "Dinosaur National Monument")
-  
+```
+
+---
+
+# Quick Demo
+
+
+```r
 ggplot(data = dino_nm, aes(x = year, y = visitors)) +
   geom_point()
 ```
 
-![](mobprogramming_and_ggplot2_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+![](mobprogramming_and_ggplot2_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
 
----
+
 
 # Your turn!
 
