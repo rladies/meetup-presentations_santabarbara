@@ -141,15 +141,17 @@ ggplot(data = dino_nm, aes(x = year, y = visitors)) +
 
 1. Go to <https://github.com/jules32/rladies-ggplot2>
 
-1. Download or clone with the green button
+1. Download with the green button or fork-and-clone 
 
 Then, in RStudio: 
 
-1. Open `national_parks_analysis.Rmd`
+1. Open `national_parks_ggplot2.Rmd`
 
 1. Walk through the demo code
 
 1. Answer the questions provided, or ask your own!
+
+1. Meetup and share with the whole group at 6:45 
 
 ---
 
