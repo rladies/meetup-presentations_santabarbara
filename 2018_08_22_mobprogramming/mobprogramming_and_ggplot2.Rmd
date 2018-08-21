@@ -15,21 +15,31 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
+options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = FALSE)
+
+library(tidyverse)
+np_visit <- suppressMessages(read_csv("data/np_visit.csv"))
 ```
 
-<!---background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
-![](images/rladies_welcome.png) 
-
-Above isn't working; need to figure it out, hopefully as a background slide--->
+<!---
+![](images/rladies_welcome.png)
+--->
 
 ---
 class: center, middle
 
 # Mob Programming
 
-[A quick primer](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
+a haiku:  
+
+small teams, one laptop  
+timed rotation, we all code    
+always supportive  
+
+<br>
+<br>
+
+[(read actual information here)](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
 
 ---
 class: inverse, center, middle
@@ -38,18 +48,37 @@ class: inverse, center, middle
 
 ---
 
+# National Parks data
+
+We'll be exploring data for visits to US National Parks. 
+Data are sourced from the National Park Service: [irma.nps.gov/Stats/SSRSReports](https://irma.nps.gov/Stats/SSRSReports)) . 
+
+Here is a brief look at the data:  
+
+--
+
+```{r}
+tail(np_visit)
+```
+
+---
+
+# National Parks data
+
+```{r}
+skimr::skim(np_visit)
+```
+
+---
+
 # `ggplot2` with National Parks data
 
 We'll be coding together with `ggplot2`
 
---
-
 - `ggplot` is a graphics package specifically built to help you iteratively create customized graphs
+- it is part of the `tidyverse` of R packages: [tidyverse.org](https://www.tidyverse.org/)
 
-
-We'll be exploring data for visits to US National Parks. 
-
-head(something to explain data)
+<!---Ellie insert gif here? --->
 
 ---
 
@@ -61,23 +90,16 @@ To make the most basic graph, you need to tell R three things:
 1. What data is used to create the graph
 1. What type of graph you want to create
 
-…everything beyond that is optional customization.
+...everything beyond that is optional (awesome) customization.
 
-
-Screenshot of aes() (Iwen, otherwise from cheatsheet)
+--
 
 ```{r, eval=FALSE}
 ggplot(data = my_data, aes(x, y)) +
   geom_point() # many geometries to choose from
 ```
 
-
-<!--
-Anatomy of ggplot tidyverse reference
-
-- data
-- aesthetics
--->
+We'll be referring to the RStudio [data visualization cheatsheet](https://www.rstudio.com/resources/cheatsheets/) and [tidyverse reference](https://ggplot2.tidyverse.org/reference/) to make awesome plots!
 
 ---
 
@@ -91,19 +113,25 @@ np_visit <- read_csv("data/np_visit.csv")
 dino_nm <- np_visit %>% 
   filter(park_name == "Dinosaur National Monument")
   
+head(dino_nm)
 ```
 
 ---
 
 # Quick demo
 
-```{r}
-## plot
+```{r, eval=FALSE}
 ggplot(data = dino_nm, aes(x = year, y = visitors)) +
   geom_point()
 ```
 
-
+.pull-left[
+```{r, echo=FALSE}
+ggplot(data = dino_nm, aes(x = year, y = visitors)) +
+  geom_point()
+```
+]
+---
 
 # Your turn!
 
