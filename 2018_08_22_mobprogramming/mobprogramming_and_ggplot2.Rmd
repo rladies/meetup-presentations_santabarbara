@@ -20,9 +20,9 @@ options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = F
 library(tidyverse)
 np_visit <- suppressMessages(read_csv("data/np_visit.csv"))
 ```
-<!---
+
 ![](images/rladies_welcome.png)
---->
+
 ---
 class: center, middle
 
