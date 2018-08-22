@@ -3,7 +3,8 @@
   <head>
     <title>RLadies Santa Barbara</title>
     <meta charset="utf-8">
-    <meta name="date" content="2018-08-20" />
+    <meta name="author" content="@RLadiesSB" />
+    <meta name="date" content="2018-08-22" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
@@ -14,17 +15,16 @@ class: center, middle, inverse, title-slide
 
 # RLadies Santa Barbara
 ## Mob Programming: coding in small teams
-### 2018-08-20
+### <span class="citation">@RLadiesSB</span>
+### 2018-08-22
 
 ---
-
 
 
 
 &lt;!---
 ![](images/rladies_welcome.png)
 ---&gt;
-
 ---
 class: center, middle
 
@@ -39,10 +39,10 @@ always supportive
 &lt;br&gt;
 &lt;br&gt;
 
-[(read actual information here)](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
+[(read actual information here, compiled by R-Lady Irene Steves)](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
 
 ---
-class: inverse, center, middle
+class: center, inverse, middle
 
 # The Plan
 
@@ -50,12 +50,13 @@ class: inverse, center, middle
 
 # National Parks data
 
-We'll be exploring data for visits to US National Parks. 
-Data are sourced from the National Park Service: [irma.nps.gov/Stats/SSRSReports](https://irma.nps.gov/Stats/SSRSReports)) . 
+We'll be exploring data for visits to US National Parks.  
+Data are from the [National Park Service](irma.nps.gov/Stats/SSRSReports) from a [lesson](https://rawgit.com/allisonhorst/data-vis/master/data_vis_np.html) by R-Lady Allison Horst. 
+
+--
 
 Here is a brief look at the data:  
 
---
 
 
 ```r
@@ -88,7 +89,7 @@ skimr::skim(np_visit)
 ##  n obs: 21174 
 ##  n variables: 7 
 ## 
-## ── Variable type:character ──────────────────────────────────────────────────────────────
+## ── Variable type:character ──────────────────────────────────────────────────────────────────────────────────
 ##   variable missing complete     n min max empty n_unique
 ##       code       0    21174 21174   4   4     0      374
 ##  park_name       0    21174 21174  11  83     0      382
@@ -96,7 +97,7 @@ skimr::skim(np_visit)
 ##      state       0    21174 21174   2   2     0       54
 ##       type       0    21174 21174   4  37     0       29
 ## 
-## ── Variable type:integer ────────────────────────────────────────────────────────────────
+## ── Variable type:integer ────────────────────────────────────────────────────────────────────────────────────
 ##  variable missing complete     n      mean         sd   p0      p25    p50
 ##  visitors       0    21174 21174 650072.41 1548292.52    0 38048.75 148300
 ##      year       0    21174 21174   1981.85      24.33 1904  1965      1986
@@ -114,7 +115,18 @@ We'll be coding together with `ggplot2`
 - `ggplot` is a graphics package specifically built to help you iteratively create customized graphs
 - it is part of the `tidyverse` of R packages: [tidyverse.org](https://www.tidyverse.org/)
 
-&lt;!---Ellie insert gif here? ---&gt;
+--
+
+.pull-left[
+&lt;img src="images/r4ds.png" style="width: 60%" /&gt;
+]
+
+.pull-right[
+Visualization chapters: 
+
+- [data visualisation](http://r4ds.had.co.nz/data-visualisation.html) 
+- [graphics for communication](http://r4ds.had.co.nz/graphics-for-communication.html)
+]
 
 ---
 
@@ -133,8 +145,10 @@ To make the most basic graph, you need to tell R three things:
 
 ```r
 ggplot(data = my_data, aes(x, y)) +
-  geom_point() # many geometries to choose from
+  geom_point() 
 ```
+
+--
 
 We'll be referring to the RStudio [data visualization cheatsheet](https://www.rstudio.com/resources/cheatsheets/) and [tidyverse reference](https://ggplot2.tidyverse.org/reference/) to make awesome plots!
 
@@ -176,14 +190,30 @@ ggplot(data = dino_nm, aes(x = year, y = visitors)) +
   geom_point()
 ```
 
+---
+
+# Quick demo
+
+
+```r
+ggplot(data = dino_nm, aes(x = year, y = visitors)) +
+  geom_point()
+```
+
 .pull-left[
-![](mobprogramming_and_ggplot2_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+![](mobprogramming_and_ggplot2_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
 ]
+
+---
+class: center
+
+&lt;img src="images/practicaldev_tryingstuff.jpg" style="width: 60%" /&gt;
+
 ---
 
 # Your turn!
 
-1. Break into teams with diverese skill levels
+1. Break into teams with diverse skill levels
 
 1. Use one computer that has RStudio installed
 
