@@ -154,9 +154,10 @@ ggplot(data = dino_nm, aes(x = year, y = visitors)) +
 ]
 
 ---
-class: center
 
-<img src="images/practicaldev_tryingstuff.jpg" style="width: 60%" />
+background-image: url("https://media.giphy.com/media/VvXg0yjJQgfEQ/giphy.gif")
+background-position: 50% 50%
+class: center, inverse
 
 ---
 
