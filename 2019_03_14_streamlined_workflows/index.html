@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Streamlined workflows in R</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="RLadies Santa Barbara: @RLadiesSB" />
+    <meta name="date" content="2019-03-13" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Streamlined workflows in R
+## (tips from usethis, here, and more)
+### RLadies Santa Barbara: <span class="citation">@RLadiesSB</span>
+### 2019-03-13
+
+---
+
+
+
+
+
+![](images/rladies-welcome.png)
+
+---
+# Welcome
+
+We have a Code of Conduct.
+
+We all take an active role in making RLadies a positive learning environment.
+
+--
+
+## Today's goals
+
+Showcase good practices for beginning and seasoned R users alike.  
+
+Take some time to reflect on how we code or aspire to code: code for ourselves, our future selves, and others.
+
+--
+  
+  
+The motivation for this talk was to nudge me to learn more about `usethis` and `here`. But of course I found...
+
+---
+class: center, inverse, middle
+
+# WTF
+
+
+## What They Forgot to Teach You About R
+
+&lt;https://whattheyforgot.org&gt;  
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt; 
+
+💜 THANK YOU Jenny Bryan, Jim Hester, &amp; so many other RStudio folks &amp; RLadies 💜
+
+💜 Most of this is exactly or build directly from the work of others 💜
+
+
+---
+#Today's plan
+To streamline your workflows in R:
+
+1. Save the source, not the workspace 
+  - Always start R with a blank slate
+  - Restart R often
+  - Avoid `rm(list = ls())`
+2. Filepaths
+  - Avoid `setwd("path/that/only/works/on/my/machine")`
+  - Use `here`
+3. Organize work into Projects
+  - Use an IDE
+  - Name files welldeliberately Rilepaths (reprise)  
+4. (Bonus) `usethis`
+  - Configure git
+  - Create template READMEs and Rmds
+  - Thank contributors
+  - Add a Code of Conduct
+
+
+
+---
+class: center, inverse, middle
+
+#  Saving source and blank slates
+
+
+&lt;img src="images/if-you-liked-it-you-should-have-saved-the-source-for-it.jpg" width="100%" /&gt;
+
+---
+# Save the source, not the workspace.
+
+Save the code that created the object, aka "source code"; do not save the object itself. 
+
+
+&lt;!--- this also works: 
+&lt;img src="images/dont-save-workspace.png" style="width: 60%" /&gt;
+---&gt;
+
+
+&lt;img src="images/dont-save-workspace.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+--
+  
+  
+- Everything that really matters should be achieved through code that you save – including objects and figures
+  - The contrast is storing them implicitly or explicitly, as part of an entire workspace, or saving them via the mouse.  
+  
+- Saving code is an absolute requirement for reproducibility.
+
+- Renouncing `.Rdata` and restarting R provide constant pressure for you to do the right thing.
+
+---
+# Use an IDE
+## (integrated development environment)
+
+When working with R, save your commands in a `.R` file ("script"), or in `.Rmd` ("R Markdown document"). It doesn't have to be polished. Just save it!
+
+An [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment) (IDE) is critical for making this workflow pleasant. 
+
+--
+
+Any good IDE offers: 
+
+- a powerful, R-aware code editor 
+- many ways to send your code to a running R process 
+- other modern conveniences
+
+This eliminates the temptation to develop code directly in the R Console. Instead, it becomes easier to do the right thing, which is to develop code in a `.R` or `.Rmd` file.
+
+---
+
+# Always start R with a blank slate
+
+When you quit R, do not save the workspace to an `.Rdata` file. When you launch, do not reload the workspace from an `.Rdata` file.
+
+In RStudio, set this via *Tools &gt; Global Options*.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="images/rstudio-workspace.png" alt="via R for Data Science" width="40%" /&gt;
+&lt;p class="caption"&gt;via R for Data Science&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+# Restart R often during development
+
+&gt; Have you tried turning it off and then on again?
+&gt;
+&gt; -- timeless troubleshooting wisdom, applies to everything
+
+--
+
+If you use RStudio, use the menu item *Session &gt; Restart R* or the associated keyboard shortcut.  
+
+Additional keyboard shortcuts make it easy to restart development where you left off, i.e. to say "re-run all the code up to HERE":
+
+&lt;img src="images/run-above.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+---
+# Avoid `rm(list = ls())`
+
+It's fairly common to see data analysis scripts that begin with this object-nuking command:
+
+
+```r
+rm(list = ls())
+```
+
+This is highly suggestive of a non-reproducible workflow.
+
+--
+
+This line is meant to reset things, either to power-cycle the current analysis or to switch from one project to another. But there are better ways to do both:
+
+- To power-cycle the current analysis, restart R!
+- To switch from one project to another, either restart R or, even better, use an IDE with proper support for projects, where each project gets its own R process.
+
+--
+
+**The problem with `rm(list = ls())` is that, given the intent, it does not go far enough.**  
+
+All it does is delete user-created objects from the global workspace.
+
+---
+background-image: url("https://media.giphy.com/media/3ofT5LPFIJ4EmC4Bgc/giphy.gif")
+background-position: 50% 50%
+class: center, inverse 
+
+# Filepaths 
+
+---
+
+
+# Filepaths preamble
+
+- every saved thing gets a unique path 
+
+&lt;img src="images/save-word.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Filepaths preamble
+
+- every saved thing gets a unique path  
+
+- your code runs from somewhere specific, and if it interacts with other things (data or other code), you need to tell your code where things are
+
+--
+
+- the more deliberate you are about where things live, 
+  - the easier it will be for you
+  - the easier it will be for future you
+  - the easier it will be for other people
+
+---
+
+# setwd("path/that/only/works/on/my/machine")
+
+This is unideal.
+
+
+```r
+library(ggplot2)
+setwd("/Users/jenny/cuddly_broccoli/verbose_funicular/foofy/data")
+df &lt;- read.delim("raw_foofy_data.csv")
+p &lt;- ggplot(df, aes(x, y)) + geom_point()
+ggsave("../figs/foofy_scatterplot.png")
+```
+
+--
+
+The chance of the `setwd()` command having the desired effect -- making the file paths work -- for anyone besides its author is 0%. 
+
+--
+
+It's also unlikely to work for the author one or two years or computers from now. 
+
+--
+
+Hard-wired, absolute paths, especially when sprinkled throughout the code, make a project brittle. Such code does not travel well across time or space.
+
+---
+# setwd()
+
+BUT, if you still decide to use `setwd()` in your scripts, you should at least be very disciplined about it:
+
+- Only use `setwd()` at the very start of a file, i.e. in an obvious and predictable place. If someone has to hand-edit all of these, make it easy for them.  
+
+- Always set working directory to the same thing, namely to the top-level of the project (not a subdirectory). Always build subsequent paths relative to that. 
+
+---
+# setwd() — compare: 
+
+Unideal:
+
+
+```r
+library(ggplot2)
+setwd("/Users/jenny/cuddly_broccoli/verbose_funicular/foofy/data")
+df &lt;- read.delim("raw_foofy_data.csv")
+p &lt;- ggplot(df, aes(x, y)) + geom_point()
+ggsave("../figs/foofy_scatterplot.png")
+```
+
+Less unideal: 
+
+
+```r
+setwd("/Users/jenny/cuddly_broccoli/verbose_funicular/foofy")
+    
+library(ggplot2)
+df &lt;- read.delim("data/raw_foofy_data.csv")
+p &lt;- ggplot(df, aes(x, y)) + geom_point()
+ggsave("figs/foofy_scatterplot.png")
+```
+
+
+---
+
+# setwd() — compare:
+
+Way more ideal:
+
+
+```r
+here::here()
+```
+
+```
+## [1] "/Users/lowndes/github/rladies/meetup-presentations_santabarbara"
+```
+
+
+We'll come back to this soon.
+
+---
+# If you like `setwd()`, then carry on
+
+If you use `setwd("path/that/only/works/on/my/machine")` and it does not cause you or your collaborators grief, then I am happy for you. Carry on. This was my practice as well for many years.
+
+--
+
+But eventually I admitted that this *did* cause me grief whenever I moved my files, collaborated on an analysis with a colleague, or got a new computer.You can design this particular aggravation out of your life.
+
+Caveat from [Jenny's original blog post about this](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/): only you can decide how much you care about this. The importance of these practices has a lot to do with whether your code will be run by other people, on other machines, and in the future. If your current practices serve your purposes, then go forth and be happy.
+
+---
+background-image: url("images/projects-leslie-knope.png")
+background-size: 50% 50%
+class: center, inverse
+&lt;!---https://www.w3schools.com/cssref/css3_pr_background-size.asp---&gt;
+
+# Project-oriented workflows
+
+
+---
+
+# Dilemma and a solution
+
+Problem statement:
+
+  * We want to work on project A with R's working directory set to `path/to/projectA` and on project B with R's working directory set to `path/to/projectB`.
+  * But we also want to keep code like `setwd("path/to/projectA")` out of our `.R` scripts.
+
+--
+
+I strongly recommend using an IDE that supports a project-based workflow. This eliminates the tension between your development convenience and the portability of the code.
+
+---
+# Organize work into projects
+ 
+Here's what I mean by "work in a project":
+
+- File system discipline: put all the files related to a project in a designated folder.
+
+  - This applies to data, code, figures, notes, etc.
+  - Depending on project complexity, you might enforce further organization into subfolders.
+
+--
+
+- Working directory intentionality: when working on project A, make sure working directory is set to project A's folder.
+  - Ideally, this is achieved via the development workflow and tooling, not by baking absolute paths into the code.
+
+--
+
+- File path discipline: all paths are relative — relative to the project's folder.
+
+---
+# Organize work into projects
+Example:
+
+&lt;img src="images/project-org-bhi.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Organize work into projects
+
+Synergistic habits: you'll get the biggest payoff if you practice all of them together.
+
+Portability: the project can be moved around on your computer or onto other computers and will still "just work".This is the only practical convention that creates **reliable, polite behavior** across different computers/users/time. This convention is neither new, nor unique to R.
+
+It's like agreeing that we will all drive on the left or the right. A hallmark of civilization is following conventions that constrain your behavior a little, in the name of public safety.
+
+---
+# RStudio Projects
+
+The RStudio IDE has a notion of a (capital "P") [Project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects), which is a very effective implementation of the (small "p") projects described above. 
+
+You can designate a new or existing folder as a Project. All this means is that RStudio leaves a file, e.g., `foofy.Rproj`, in the folder, which is used to store settings specific to that project. Use *File &gt; New Project ...* to get started.
+
+Double-click on a `.Rproj` file to open a fresh instance of RStudio, with the working directory and file browser pointed at the project folder.
+  
+  
+---
+# RStudio Projects
+ 
+Once RStudio is running, you can open an existing Project, switch to another Project, launch a second instance of RStudio in a new or existing Project, and much more, via various menus and keyboard shortcuts (more below).
+
+This allows rapid context switching across several projects, such as an R package, teaching material, and a data analysis. There is no danger of crosstalk between the projects: each has its own R process, global workspace, and working directory.
+
+
+&lt;img src="images/multiple-rstudio-projects.png" width="100%" /&gt;
+
+---
+# Where to keep Projects
+
+One suggestion for organizing:
+
+**Have a dedicated folder for your Projects.** I keep the vast majority of my R work in RStudio Projects in the folder `~/rrr/`. What I call this folder and where I keep it is not important. The main point is if you have One Main Place for Projects, then you can go there in Finder or File Explorer and drill down to the `.Rproj` file needed to launch any specific project. You can make the One Main Place more accessible to yourself by putting it in the Finder's Sidebar (macOS) or *windows equivalent*
+
+
+---
+# Tricks for opening Projects
+
+Once you decide "I want to do some work in Project K", there are various ways to accelerate the startup process. 
+
+**RStudio knows about recently used Projects.** Once you are in RStudio, there are several ways to access other Projects you've recently worked in. In the upper right corner is a drop-down menu with various Project- and session-related goodies in it.
+
+.pull-left[
+&lt;img src="images/rstudio-project-switching.png" width="40%" /&gt;
+]
+
+.pull-right[
+Use the "arrow and paper" icon to open a Project in a separate RStudio instance, while also leaving the Project you're launching it from open. Click on a Project's name to switch the current RStudio instance from one Project to another. The *File* menu also offers ways to switch project or open new, additional instances.
+]
+
+---
+background-image: url("images/here.png")
+background-position: center
+background-size: 75% 75%
+class: center, inverse, bottom
+
+# `here`
+
+---
+# `here`
+
+`here()` identifies your project's files, based on the current working directory at the time when the package is loaded.
+
+
+```r
+library(here)
+```
+
+```
+## here() starts at /Users/lowndes/github/rladies/meetup-presentations_santabarbara
+```
+
+```r
+here()
+```
+
+```
+## [1] "/Users/lowndes/github/rladies/meetup-presentations_santabarbara"
+```
+
+```r
+dr_here()
+```
+
+```
+## here() starts at /Users/lowndes/github/rladies/meetup-presentations_santabarbara, because it contains a file matching `[.]Rproj$` with contents matching `^Version: ` in the first line
+```
+
+If you need to set it manually, use `set_here()`.
+
+Those are the only 3 functions in the `here()` package.
+
+---
+# `here` example: Foofy
+
+This will run, with no edits, for anyone who follows the convention about launching R in the project folder.
+
+
+```r
+library(ggplot2)
+library(here)
+
+df &lt;- read.delim(here("data", "raw_foofy_data.csv"))
+p &lt;- ggplot(df, aes(x, y)) + geom_point()
+ggsave(here("figs", "foofy_scatterplot.png"))
+```
+
+
+In fact, it will even work if R’s working directory is anywhere inside the project, i.e. it will work from sub-folders. This plays well with knitr/rmarkdown’s default behavior around working directory and in package development/checking workflows.
+
+---
+
+# `here` Example: Ocean Health Index
+
+
+
+---
+class: center, inverse, middle
+
+#  Naming files
+
+---
+class: center, inverse, middle
+
+#  Tips from `usethis`
+
+---
+
+# Configure Git
+
+
+```r
+## set the user's global user.name and user.email
+use_git_config(user.name = "Jane", user.email = "jane@example.org")
+```
+
+
+--- 
+
+# Identify contributors via GitHub activity
+
+{r, eval=FALSE}
+usethis::use_tidy_thanks("openscapes/demo")
+
+
+&lt;https://github.com/Openscapes/demo/graphs/contributors&gt;
+
+--- 
+
+# Add an RMarkdown Template
+
+Adds files and directories necessary to add a custom rmarkdown template to RStudio. It creates:
+
+- `inst/rmarkdown/templates/{{template_dir}}`. Main directory.
+- `skeleton/skeleton.Rmd`. Your template Rmd file.
+- `template.yml` with basic information filled in.
+
+
+
+```r
+usethis::use_tidyrmarkdown_template()
+```
+
+
+---
+
+Let's inspect it
+
+---
+# Use your new RMarkdown template
+
+
+---
+
+# Create README files
+
+Live demo:
+
+
+```r
+usethis::use_readme_md()
+```
+
+And, let's make a README.Rmd and learn why we would ever want to:
+
+
+```r
+usethis::use_readme_rmd()
+```
+
+--- 
+
+# Add a Code of Conduct
+ 
+
+usethis::use_tidy_coc()
+
+---
+# Summary
+
+
+---
+# Next RLadies Meetup
+
+- April — let's meetup for a drink or a hike
+- May - led about SOMETHING COOL by YOU?
+- July or August: Wikipedia with Joan Dudney!
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"output": null
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
