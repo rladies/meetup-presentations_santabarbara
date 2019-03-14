@@ -1,3 +1,3 @@
 # README
 
-[Intro slides](https://raw.githack.com/rladies/meetup-presentations_santabarbara/gh-pages/2018_11_30_special_guest_jenny_bryan/introduction.html) for our Meetup event.
+[Slides for Streamlined Workflows in R](https://jules32.github.io/streamlined-workflows/#1) from March 14, 2019.

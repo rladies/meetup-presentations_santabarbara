@@ -20,3 +20,20 @@ options(htmltools.dir.version = FALSE, warning=FALSE, message=FALSE, verbose = F
 ```
 
 ![](images/rladies_welcome.png)
+
+---
+class: middle
+
+# Jenny Bryan
+
+Interview quotes
+
+small teams, one laptop  
+timed rotation, we all code    
+always supportive  
+
+<br>
+<br>
+
+[(read actual information here, compiled by R-Lady Irene Steves)](https://github.com/R-Meetup-SB/hackathon-201806/blob/master/mob-programming.Rmd)
+

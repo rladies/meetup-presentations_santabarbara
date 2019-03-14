@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>RLadies Santa Barbara</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="@RLadiesSB" />
-    <meta name="date" content="2018-08-23" />
+    <meta name="date" content="2019-03-11" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies.css" rel="stylesheet" />
     <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
@@ -16,7 +16,7 @@ class: center, middle, inverse, title-slide
 # RLadies Santa Barbara
 ## Mob Programming: coding in small teams
 ### <span class="citation">@RLadiesSB</span>
-### 2018-08-23
+### 2019-03-11
 
 ---
 
@@ -89,7 +89,7 @@ skimr::skim(np_visit)
 ##  n obs: 21174 
 ##  n variables: 7 
 ## 
-## ── Variable type:character ──────────────────────────────────────────────────────────────
+## ── Variable type:character ────────────────────────────────────────────────────────────
 ##   variable missing complete     n min max empty n_unique
 ##       code       0    21174 21174   4   4     0      374
 ##  park_name       0    21174 21174  11  83     0      382
@@ -97,7 +97,7 @@ skimr::skim(np_visit)
 ##      state       0    21174 21174   2   2     0       54
 ##       type       0    21174 21174   4  37     0       29
 ## 
-## ── Variable type:integer ────────────────────────────────────────────────────────────────
+## ── Variable type:integer ──────────────────────────────────────────────────────────────
 ##  variable missing complete     n      mean         sd   p0      p25    p50
 ##  visitors       0    21174 21174 650072.41 1548292.52    0 38048.75 148300
 ##      year       0    21174 21174   1981.85      24.33 1904  1965      1986
@@ -170,14 +170,14 @@ head(dino_nm)
 
 ```
 ## # A tibble: 6 x 7
-##   region state code  park_name               type           visitors  year
-##   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;                   &lt;chr&gt;             &lt;int&gt; &lt;int&gt;
-## 1 IM     CO    DINO  Dinosaur National Monu… National Monu…     5088  1937
-## 2 IM     CO    DINO  Dinosaur National Monu… National Monu…     8897  1938
-## 3 IM     CO    DINO  Dinosaur National Monu… National Monu…    10220  1939
-## 4 IM     CO    DINO  Dinosaur National Monu… National Monu…    10928  1940
-## 5 IM     CO    DINO  Dinosaur National Monu… National Monu…     8706  1941
-## 6 IM     CO    DINO  Dinosaur National Monu… National Monu…     2268  1942
+##   region state code  park_name                type           visitors  year
+##   &lt;chr&gt;  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;                    &lt;chr&gt;             &lt;int&gt; &lt;int&gt;
+## 1 IM     CO    DINO  Dinosaur National Monum… National Monu…     5088  1937
+## 2 IM     CO    DINO  Dinosaur National Monum… National Monu…     8897  1938
+## 3 IM     CO    DINO  Dinosaur National Monum… National Monu…    10220  1939
+## 4 IM     CO    DINO  Dinosaur National Monum… National Monu…    10928  1940
+## 5 IM     CO    DINO  Dinosaur National Monum… National Monu…     8706  1941
+## 6 IM     CO    DINO  Dinosaur National Monum… National Monu…     2268  1942
 ```
 
 ---
@@ -234,6 +234,7 @@ Then, in RStudio:
 
 ---
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -244,16 +245,57 @@ Then, in RStudio:
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -267,14 +309,15 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
