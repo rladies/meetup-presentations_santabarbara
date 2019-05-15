@@ -23,13 +23,13 @@ Required packages: tidyverse, janitor, here
     
 Get data and templates by forking & cloning from GitHub (Option 1) **or** downloading from Google Drive (Option 2):
 
-#### Option 1: From GitHub**
+#### Option 1: From GitHub
 
 Materials to fork/clone from GitHub (directions below if you need help): (https://github.com/samanthacsik/Intro-to-the-Tidyverse)
 
 Directions for getting set up if using GitHub, prepared by An and Sam: (https://drive.google.com/file/d/1zpJEWzhvBzTh34h0lvly_x84fxpjurCY/view?usp=sharing)
 
-#### Option 2: From Google Drive**
+#### Option 2: From Google Drive
 
 Materials available to download from Google drive:
 (https://drive.google.com/drive/u/0/folders/1kRcdYGUaZvmNygygrz1njV5DVfQ7Gyjd)
