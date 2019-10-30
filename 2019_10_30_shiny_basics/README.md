@@ -14,4 +14,4 @@ To code along during the session:
 
 And Happy Halloween!
 
-![]()
+![](horst-shiny-goes-spooky.png)
