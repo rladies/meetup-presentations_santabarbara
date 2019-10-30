@@ -2,7 +2,7 @@
 
 Welcome!
 
-This session is led by [Allison Horst](https://twitter.com/allison_horst), the awesome lecturer at the Bren School of Environmental Science and Management (UC Santa Barbara). Check out her course materials: [allisonhorst.github.io](https://allisonhorst.github.io). 
+This session is led by [Allison Horst](https://allisonhorst.github.io) ([@allison_horst](https://twitter.com/allison_horst)), the awesome lecturer of data analysis, statistics, and presentation skills at the Bren School of Environmental Science and Management (UC Santa Barbara). 
 
 [R-Ladies SB intro slides](https://docs.google.com/presentation/d/18eWOBIff-WPrhYQIZyqNAiOXjcU24z_FEb61a0DQ8cE/edit?usp=sharing)
 
