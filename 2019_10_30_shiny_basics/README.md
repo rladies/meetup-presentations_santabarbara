@@ -29,3 +29,6 @@ And Happy Halloween!
 **NCEAS Reproducible Research Techniques for Synthesis Trainings**  – 5 days, quarterly, Santa Barbara
 [info and register](https://www.nceas.ucsb.edu/learning-hub/short-course)
 
+**Next RLadiesSB event** – TBD
+Want to get involved or lead? NCEAS can host and we can help you with your materials!
+
