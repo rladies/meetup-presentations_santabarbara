@@ -15,3 +15,17 @@ To code along during the session:
 And Happy Halloween!
 
 ![](horst-shiny-goes-spooky.png)
+
+
+## Upcoming events!
+
+
+**SoCal R Users Groups & R-Ladies All-hands Meeting** - Sat, November 23, 2019 10:00 AM – 4:00 PM Los Angeles – Warner Brothers Studios 
+[register here](https://www.eventbrite.com/e/socal-all-hands-user-meeting-tickets-76817937519) - [twitter announcement](https://twitter.com/la_Rusers/status/1187407820213379074)  
+
+**RStudio::conf(2019)** – Jan 27-30 – San Francisco
+[register here](https://rstudio.com/conference/)
+
+**NCEAS Reproducible Research Techniques for Synthesis Trainings**  – 5 days, quarterly, Santa Barbara
+[info and register](https://www.nceas.ucsb.edu/learning-hub/short-course)
+
