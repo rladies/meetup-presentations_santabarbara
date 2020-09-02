@@ -9,7 +9,7 @@ This session was led by R-Ladies SB co-organizers An Bui, Sam Csik, & Juliette V
 
 ### Presentation Materials:
 
-[R-Ladies SB Intro Slides](https://docs.google.com/presentation/d/18eWOBIff-WPrhYQIZyqNAiOXjcU24z_FEb61a0DQ8cE/edit#slide=id.g6fb4f93a3e_1_0)
+[R-Ladies SB Intro Slides](https://docs.google.com/presentation/d/1sU2H89F5e409WpYilRqYAqu7DdXSAivccEa4y44xZ7c/edit?usp=sharing)
 
 ### Live Coding Exercise Materials:
 
