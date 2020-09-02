@@ -3,36 +3,28 @@ Data Visulization (Part 1)
 
 8/19/2020
 
+Find the Meetup Event information [here](https://www.meetup.com/rladies-santa-barbara/events/272478115/)
+
+This session was led by R-Ladies SB co-organizers An Bui, Sam Csik, & Juliette Verstaen.
+
 [R-Ladies SB Intro Slides](https://docs.google.com/presentation/d/18eWOBIff-WPrhYQIZyqNAiOXjcU24z_FEb61a0DQ8cE/edit#slide=id.g6fb4f93a3e_1_0)
-
-This session will be led by 
-
-About the three of us...
 
 ### Materials for live coding exercises:
 
-Required packages: 
+Install R here: https://www.r-project.org/
+Install RStudio here: https://rstudio.com/products/rstudio/download/
 
-*If you haven't installed those previously, run:*
+Copy and paste the following code into your console to install the necessary packages (if necessary) prior to our meetup:
 
-    install.packages("x")
-    install.packages("x")
-    install.packages("x")
+install.packages(“palmerpenguins”)
+install.packages(“tidyverse”)
+install.packages("patchwork")
+install.packages("hrbrthemes")
+install.packages("ggtext")
+install.packages("ggimage")
+install.packages("rlang")
 
-Get data and templates by forking & cloning from GitHub (Option 1) **or** downloading from Google Drive (Option 2):
+You can also download our code (and some cute penguin images that we'll be adding to our plots!) [here:](https://drive.google.com/drive/folders/17mX2I990VXzM806dQtwuAyTEwnMEkUlO?usp=sharing)
 
-#### Option 1: From GitHub
-
-Materials to fork/clone from GitHub (directions below if you need help): (LINK)
-
-Directions for getting set up if using GitHub (for another project, but methods the same): (https://drive.google.com/file/d/1zpJEWzhvBzTh34h0lvly_x84fxpjurCY/view?usp=sharing)
-
-#### Option 2: From Google Drive
-
-Materials available to download from Google drive:
-LINK
-
-Directions for getting set up if using files from Google drive, prepared by Sam and An:
-LINK
-
-
+We suggest creating an R project to store all four files in for ease of use. If you are unsure how to do so, you can find detailed instructions [here:]
+(https://drive.google.com/file/d/1HAvvoKrX8Ehm_NCipkij0OqUQgWIAdCR/view?usp=sharing)
