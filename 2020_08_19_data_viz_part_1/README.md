@@ -3,11 +3,11 @@ Data Visulization (Part 1)
 
 8/19/2020
 
-[Meetup Event information](https://www.meetup.com/rladies-santa-barbara/events/272478115/)
+[Meetup Event Information](https://www.meetup.com/rladies-santa-barbara/events/272478115/)
 
 This session was led by R-Ladies SB co-organizers An Bui, Sam Csik, & Juliette Verstaen. We review ggplot2 basics and explore different ways to make customizing plots fun and easy. As a bonus, we use the new [palmerpenguins package](https://github.com/allisonhorst/palmerpenguins), curated by our very own R-Lady and chapter co-founder, Allison Horst!
 
-#### Presentation Materials
+### Presentation Materials:
 
 [R-Ladies SB Intro Slides](https://docs.google.com/presentation/d/18eWOBIff-WPrhYQIZyqNAiOXjcU24z_FEb61a0DQ8cE/edit#slide=id.g6fb4f93a3e_1_0)
 
