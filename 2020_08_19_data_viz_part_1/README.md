@@ -23,6 +23,6 @@ Copy and paste the following code into your console to install the necessary pac
     install.packages("ggimage")
     install.packages("rlang")
 
-Download our code (and some cute penguin images that we'll be adding to our plots!) [here.](https://drive.google.com/drive/folders/17mX2I990VXzM806dQtwuAyTEwnMEkUlO?usp=sharing)
+Fork our GitHub Repo [here]() or download our code (and some cute penguin images that we'll be adding to our plots!) [here.](https://drive.google.com/drive/folders/17mX2I990VXzM806dQtwuAyTEwnMEkUlO?usp=sharing)
 
 We suggest creating an R project to store all four files in for ease of use. If you are unsure how to do so, you can find detailed instructions [here.](https://drive.google.com/file/d/1HAvvoKrX8Ehm_NCipkij0OqUQgWIAdCR/view?usp=sharing)
