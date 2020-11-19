@@ -37,7 +37,7 @@ New to R/RStudio and/or GitHub? We use these tools in many of our meetup events 
    * [Creating an Project in R]()
  
  <p align="center">
- <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="100" height="100"> 
+ <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="500" height="500"> 
  </p>
    
 
