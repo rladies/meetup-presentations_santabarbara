@@ -1,4 +1,4 @@
-## R-Ladies Santa Barbara  <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="50"> 
+## R-Ladies Santa Barbara 
 
 Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events!
 
@@ -35,6 +35,9 @@ New to R/RStudio and/or GitHub? We use these tools in many of our meetup events 
    * [Download R/RStudio](https://docs.google.com/document/d/1KLYC_GcDLYeczSjJmZ5h4y525XILJbbL6r2-MxGCdtw/edit?usp=sharing)
    * [Setup Git/GitHub](https://docs.google.com/document/d/1AQ4zAYxPHOObq-snnnRtEdwCC8TwIJsTHwpaKyvEyoA/edit?usp=sharing)
    * [Creating an Project in R]()
-   
+ 
+ <p align="center">
+ <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="100" height="100"> 
+ </p>
    
 
