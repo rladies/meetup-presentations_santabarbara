@@ -30,7 +30,8 @@ Photographs and/or video/other media may be taken at events held by this communi
 
 ## Additional Resources
 
-New to R/RStudio and/or GitHub? We use these tools in many of our meetup events and encourage participants to follow along on their own machines. Find step-by-step instructions for getting set up below:
+New to R/RStudio and/or GitHub? We use these tools in many of our meetup events and encourage participants of all experience levels to follow along on their own machines. Find step-by-step instructions for getting set up below:
 
-   * [Download R/RStudio]()
-   * [Setup a GitHub account]()
+   * [Download R/RStudio](https://docs.google.com/document/d/1KLYC_GcDLYeczSjJmZ5h4y525XILJbbL6r2-MxGCdtw/edit?usp=sharing)
+   * [Setup Git/GitHub](https://docs.google.com/document/d/1AQ4zAYxPHOObq-snnnRtEdwCC8TwIJsTHwpaKyvEyoA/edit?usp=sharing)
+   * [Creating an Project in R]()
