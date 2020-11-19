@@ -4,7 +4,7 @@ R-Ladies Santa Barbara welcomes members of all R proficiency levels, whether you
 
 A local chapter of [R-Ladies Global](https://rladies.org/), R-Ladies Santa Barbara exists to promote diversity in the R community, both locally and worldwide. We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in and/or working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world.
 
-We are part of Global R-Ladies group. Here are some links! You can access our presentations, R scripts and more on our [Github account](https://github.com/rladies) and follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lang=en) to stay up to date about R-Ladies news!
+We are part of Global R-Ladies group. You can access our presentations, R scripts and more on our [Github account](https://github.com/rladies) and follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lang=en) to stay up to date about R-Ladies news!
 
 Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events.
 
