@@ -33,7 +33,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 R-Ladies Santa Barbara is dedicated to providing harassment-free event experiences for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion. We do not tolerate harassment of event participants in any form.
 
-We ask that all participants review and abide by the R-Ladies [Code of Conduct](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md).
+We ask that all participants review and abide by the R-Ladies [Code of Conduct](https://guide.rladies.org/about/coc/).
 
 ### Community Policy
 
