@@ -14,7 +14,7 @@ You can also follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lan
 
 | Date  | Meetup Event |  Slides | GitHub Repo |
 | ------------- | ------------- |------------- |------------- |
-| 2020-11-18  | [Basics of the gt (grammer of tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | SLIDES | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies
+| 2020-11-18  | [Basics of the gt (grammer of tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | https://bit.ly/2KiCkaV | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies
 
 ## Code of Conduct
 
