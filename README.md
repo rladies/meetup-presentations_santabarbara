@@ -6,9 +6,7 @@ You can also follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lan
 
 ## Upcoming events
 
-**Basics of the {gt} (Grammar of Tables) package, led by Juliette Verstaen**
-   * [Meetup Event](https://www.meetup.com/rladies-santa-barbara/events/274628867/)
-   * [GitHub Repo](https://github.com/j-verstaen/gt_workshop_SB_R_Ladies) (fork or download materials here!)
+Check back soon!
 
 ## Past events
 
@@ -18,6 +16,12 @@ You can also follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lan
 | 2020-08-19 | [Data Viz (Part 1!)](https://www.meetup.com/rladies-santa-barbara/events/272478115/) | https://bit.ly/3nDvCuq |https://github.com/j-verstaen/RLadiesSB-Data-Viz-Pt1 | *NA* |
 | 2020-05-27 | [R Tips & Tricks](https://www.meetup.com/rladies-santa-barbara/events/270727948/) | https://bit.ly/35K2Hiw | https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2020_05_27_r_tips_tricks | *NA* |
 | 2019-10-30 | [Basics of building Shiny apps in R with Allison Horst](https://www.meetup.com/rladies-santa-barbara/events/265474030/) | https://bit.ly/3pD3sln | https://github.com/allisonhorst/shiny-basics-sb-r-ladies | *NA* |
+| 2019-05-15 | [Intro to the Tidyverse](https://www.meetup.com/rladies-santa-barbara/events/260710376/) | *NA* |https://github.com/samanthacsik/Intro-to-the-Tidyverse | *NA* |
+| 2019-03-14 | [Streamlined Workflows in R](https://www.meetup.com/rladies-santa-barbara/events/258825450/) | https://bit.ly/3pEaRRg | *NA* | *NA*|
+| 2018-11-30 | [Special Guest, Jenny Bryan!](https://www.meetup.com/rladies-santa-barbara/events/256007290/) | *NA* | https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2018_11_30_special_guest_jenny_bryan | *NA* |
+| 2018-08-18 | Mob Programming | https://bit.ly/3nCDpsr | https://github.com/jules32/rladies-ggplot2 | *NA* |
+| 2018-05-31 | Lightening Talks | *NA* |https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2018_05_31_lightningtalks | *NA* |
+| 2018-04-10 | R-Ladies SB Kickoff Event | https://bit.ly/2IIic1I | *NA* | *NA* |
 
 ## Code of Conduct
 
