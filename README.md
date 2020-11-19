@@ -17,7 +17,7 @@ Check back soon!
 For ease of access, you can explore and download materials from our past Meetups by event in the table below:
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
-| --- | ----- | ----- |-----|-----|
+| --- | ----- | :---: |-----|:---:|
 | 2020-11-18 | [Basics of the gt (Grammer of Tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | https://bit.ly/2KiCkaV | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies | coming soon |
 | 2020-08-19 | [Data Viz (Part 1!)](https://www.meetup.com/rladies-santa-barbara/events/272478115/) | https://bit.ly/3nDvCuq |https://github.com/j-verstaen/RLadiesSB-Data-Viz-Pt1 | *NA* |
 | 2020-05-27 | [R Tips & Tricks](https://www.meetup.com/rladies-santa-barbara/events/270727948/) | https://bit.ly/35K2Hiw | https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2020_05_27_r_tips_tricks | *NA* |
