@@ -12,7 +12,10 @@ You can also follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lan
 
 ## Past events
 
-
+| Date  | Meetup Event |  Slides | GitHub Repo |
+| ------------- | ------------- |
+| 2020-11-18  | [Basics of the gt (grammer of tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | SLIDES | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies
+| 2020-08-19 | [Data Visualization (Part 1!)[https://www.meetup.com/rladies-santa-barbara/events/272478115/] | 
 
 ## Code of Conduct
 
@@ -34,7 +37,6 @@ New to R/RStudio and/or GitHub? We use these tools in many of our meetup events 
 
    * [Download R/RStudio](https://docs.google.com/document/d/1KLYC_GcDLYeczSjJmZ5h4y525XILJbbL6r2-MxGCdtw/edit?usp=sharing)
    * [Setup Git/GitHub](https://docs.google.com/document/d/1AQ4zAYxPHOObq-snnnRtEdwCC8TwIJsTHwpaKyvEyoA/edit?usp=sharing)
-   * [Creating an Project in R]()
  
  <p align="center">
  <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="500" height="550"> 
