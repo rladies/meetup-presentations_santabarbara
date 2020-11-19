@@ -1,6 +1,4 @@
-## R-Ladies Santa Barbara
-
- <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="100" height="100">
+## R-Ladies Santa Barbara  <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="120" height="100">
 
 Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events!
 
