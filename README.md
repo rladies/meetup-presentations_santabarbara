@@ -1,14 +1,20 @@
 ## R-Ladies Santa Barbara 
 
-Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events!
+R-Ladies Santa Barbara welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our non-profit, civil society community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
 
-You can also follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lang=en)
+A local chapter of [R-Ladies Global](https://rladies.org/), R-Ladies Santa Barbara exists to promote diversity in the R community, both locally and worldwide. We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in and/or working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world.
+
+We are part of Global R-Ladies group. Here are some links! You can access our presentations, R scripts and more on our [Github account](https://github.com/rladies) and follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lang=en) to stay up to date about R-Ladies news!
+
+Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events!
 
 ## Upcoming events
 
 Check back soon!
 
 ## Past events
+
+For ease of access, you can explore and download materials from our past Meetups by event in the table below:
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
 | --- | ----- | ----- |-----|-----|
@@ -31,7 +37,9 @@ We ask that all participants review and abide by the R-Ladies [Code of Conduct](
 
 ### Community Policy
 
-Please note, cis men are welcome to join our meetups, however we highly encourage presenters at R-Ladies Santa Barbara events to be of minority genders.
+The leadership, mentoring & teaching roles within this Community are held exclusively by minority genders (majority gender speakers may be allowed/invited as one-off guests in exceptional circumstances at the leadership team's discretion). Due to unexpected demand, we have opened learning participation to all genders, dependent on initial and on-going vetting by the leadership team. However, the stated priority of the R-Ladies communities is the development & support specifically of those identifying as a minority gender, and we, therefore, reserve the right to guard this interest through whatever measures the leadership team deems appropriate. Anyone involved with R-Ladies Santa Barbara is expected to fully respect each other, the mandate of this community, and the goodwill on which R-Ladies is founded, or face expulsion/a penalty of any form, at the discretion of the leadership team.
+
+Full community guidelines are found here: https://guide.rladies.org/
 
 ## Images/Media
 
