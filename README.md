@@ -10,7 +10,14 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-Check back soon!
+Mark your calendars for our Ugly Christmas Plot Party on December 16th, 2020! Meetup Event to follow soon. In the meantime, help us curate our dataset for this holiday gathering by telling us a bit about your favorite ugly (or beautiful) holiday sweater in the survey below:
+
+https://forms.gle/A5Uosws9Mk753arb9
+
+<p align="center">
+ <img src="https://lh3.googleusercontent.com/proxy/RfdFjLKn224pgccP6D3n951tkdWN-jsVtX67gjiFum1Gy5uTOwayYbIhq-ni3GCF5HLwGHmHn5Vh7DN_e63LOyjQ" width="300" height="350"> 
+ </p>
+
 
 ## Past events
 
