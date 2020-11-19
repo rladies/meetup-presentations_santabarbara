@@ -6,7 +6,7 @@ A local chapter of [R-Ladies Global](https://rladies.org/), R-Ladies Santa Barba
 
 We are part of Global R-Ladies group. Here are some links! You can access our presentations, R scripts and more on our [Github account](https://github.com/rladies) and follow us on Twitter [@RLadiesSB](https://twitter.com/rladiessb?lang=en) to stay up to date about R-Ladies news!
 
-Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events!
+Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events.
 
 ## Upcoming events
 
