@@ -14,11 +14,6 @@ Mark your calendars for our Ugly Christmas Plot Party on **December 16th, 2020**
 
 https://forms.gle/A5Uosws9Mk753arb9
 
-<p align="center">
- <img src="https://lh3.googleusercontent.com/proxy/RfdFjLKn224pgccP6D3n951tkdWN-jsVtX67gjiFum1Gy5uTOwayYbIhq-ni3GCF5HLwGHmHn5Vh7DN_e63LOyjQ" width="325" height="350"> 
- </p>
-
-
 ## Past events
 
 For ease of access, you can explore and download materials from our past Meetups by event in the table below:
