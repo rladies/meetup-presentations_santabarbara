@@ -54,6 +54,7 @@ New to R/RStudio and/or GitHub? We use these tools in many of our meetup events 
 
    * [Download R/RStudio](https://docs.google.com/document/d/1KLYC_GcDLYeczSjJmZ5h4y525XILJbbL6r2-MxGCdtw/edit?usp=sharing)
    * [Setup Git/GitHub](https://docs.google.com/document/d/1AQ4zAYxPHOObq-snnnRtEdwCC8TwIJsTHwpaKyvEyoA/edit?usp=sharing)
+   * [Setting up an RStudio Project](https://docs.google.com/document/d/107VCYVyiSzmREd45yyMxnINMr7zCXVZthdgm4-P5sCI/edit?usp=sharing)
  
  <p align="center">
  <img src="https://pbs.twimg.com/media/DsevCOkUwAAEFZU?format=jpg&name=medium" width="500" height="550"> 
