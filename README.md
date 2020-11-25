@@ -48,12 +48,15 @@ Full community guidelines are found here: https://guide.rladies.org/
 
 Photographs and/or video/other media may be taken at events held by this community. By taking part in an R-Ladies Santa Barbara event you grant the community organisers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community’s aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
 
-## Additional Resources
+## Getting Started with R & GitHub
 
 New to R/RStudio and/or GitHub? We use these tools in many of our meetup events and encourage participants of all experience levels to follow along on their own machines. Find step-by-step instructions for getting set up below:
 
    * [Download R/RStudio](https://docs.google.com/document/d/1KLYC_GcDLYeczSjJmZ5h4y525XILJbbL6r2-MxGCdtw/edit?usp=sharing)
    * [Setup Git/GitHub](https://docs.google.com/document/d/1AQ4zAYxPHOObq-snnnRtEdwCC8TwIJsTHwpaKyvEyoA/edit?usp=sharing)
+   
+## Additional Resources
+
    * [Setting up an RStudio Project](https://docs.google.com/document/d/107VCYVyiSzmREd45yyMxnINMr7zCXVZthdgm4-P5sCI/edit?usp=sharing)
  
  <p align="center">
