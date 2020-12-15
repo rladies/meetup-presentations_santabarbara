@@ -12,11 +12,9 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 Mark your calendars for our Ugly Holiday Plot Party on **December 16th, 2020**! Find additional details and RSVP to this Meetup event [here](https://www.meetup.com/rladies-santa-barbara/events/274923365/). 
 
-You can also help us curate what is arguably our most exciting dataset to date by telling us a bit about your favorite ugly (or beautiful) holiday sweater in the survey below:
+Many thanks to all who contributed data about their favorite holiday sweaters! You can download the dataset from [Google Drive](https://drive.google.com/file/d/1A1UBmKNJvuCCGrvfkAr_4GdovLr6u2Th/view) or on [GitHub](https://github.com/an-bui/RLadiesSB-ugly_plot_contest)
 
-https://forms.gle/A5Uosws9Mk753arb9
-
-These data will be made available before the event. We're so excited to see how participants choose to visualize our survey results!
+We're so excited to see how participants choose to visualize our survey results!
 
 ## Past events
 
@@ -24,6 +22,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
 | :-: | :---: | :---: |:---:|:---:|
+| 2020-12-16 | [1st Annual Ugly Plot Contest](https://www.meetup.com/rladies-santa-barbara/events/274923365/) | http://bit.ly/3qYCLYT ||https://github.com/an-bui/RLadiesSB-ugly_plot_contest | *NA* |
 | 2020-11-18 | [Basics of the gt (Grammer of Tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | https://bit.ly/2KiCkaV | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies | https://bit.ly/3nChz8A |
 | 2020-08-19 | [Data Viz (Part 1!)](https://www.meetup.com/rladies-santa-barbara/events/272478115/) | https://bit.ly/3nDvCuq |https://github.com/j-verstaen/RLadiesSB-Data-Viz-Pt1 | *NA* |
 | 2020-05-27 | [R Tips & Tricks](https://www.meetup.com/rladies-santa-barbara/events/270727948/) | https://bit.ly/35K2Hiw | https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2020_05_27_r_tips_tricks | *NA* |
