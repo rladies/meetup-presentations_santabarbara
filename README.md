@@ -10,9 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-Mark your calendars for our Ugly Holiday Plot Party on **December 16th, 2020**! Find additional details and RSVP to this Meetup event [here](https://www.meetup.com/rladies-santa-barbara/events/274923365/). 
-
-Many thanks to all who contributed data about their favorite holiday sweaters -- you can download the dataset from [Google Drive](https://drive.google.com/file/d/1A1UBmKNJvuCCGrvfkAr_4GdovLr6u2Th/view) or on [GitHub](https://github.com/an-bui/RLadiesSB-ugly_plot_contest). We're so excited to see how participants choose to visualize our survey results!
+Stay tuned for our next event in early 2021!
 
 ## Past events
 
