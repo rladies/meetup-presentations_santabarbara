@@ -10,7 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-Stay tuned for our next event in early 2021!
+**February 24, 2020:** Putting the *fun* in FUNctions
 
 ## Past events
 
