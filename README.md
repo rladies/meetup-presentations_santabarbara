@@ -10,7 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-**February 24, 2020:** Putting the *fun* in FUNctions
+- **February 24, 2020:** Putting the *fun* in FUNctions
 
 ## Past events
 
