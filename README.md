@@ -10,7 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-- **February 24, 2021 (05:30-7:00pm PT):** Putting the *fun* in FUNctions
+- **February 24, 2021 (05:30-7:00pm PT):** Putting the *fun* in FUNctions! RSVP on our [Meetup page](https://www.meetup.com/rladies-santa-barbara/events/276153970/)
 - **April 14, 2021 (05:30-7:00pm PT):** An evening with Ijeamaka Anyene: a viewing party of "aRt + ggplot: exploring radial visualizations" + Q&A!
 
 ## Past events
