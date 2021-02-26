@@ -18,7 +18,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
 | :-: | :---: | :---: |:---:|:---:|
-| 2021-02-24 | [Putting the FUN in Functions](https://www.meetup.com/rladies-santa-barbara/events/276153970/) | NA |https://github.com/an-bui/RLadiesSB-FUNctions| bit.ly/3aUO7qQ |
+| 2021-02-24 | [Putting the FUN in Functions](https://www.meetup.com/rladies-santa-barbara/events/276153970/) | NA |https://github.com/an-bui/RLadiesSB-FUNctions| https://bit.ly/3aUO7qQ |
 | 2020-12-16 | [1st Annual Ugly Plot Contest](https://www.meetup.com/rladies-santa-barbara/events/274923365/) | http://bit.ly/3qYCLYT | https://github.com/an-bui/RLadiesSB-ugly_plot_contest | *NA* |
 | 2020-11-18 | [Basics of the gt (Grammer of Tables) package](https://www.meetup.com/rladies-santa-barbara/events/274628867/) | https://bit.ly/2KiCkaV | https://github.com/j-verstaen/gt_workshop_SB_R_Ladies | https://bit.ly/3nChz8A |
 | 2020-08-19 | [Data Viz (Part 1!)](https://www.meetup.com/rladies-santa-barbara/events/272478115/) | https://bit.ly/3nDvCuq |https://github.com/j-verstaen/RLadiesSB-Data-Viz-Pt1 | *NA* |
