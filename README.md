@@ -10,6 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
+**June 22nd, 2021:** R-Ladies SB x R-Ladies Vancouver joint TidyTuesday event! More info coming soon. 
 
 ## Past events
 
@@ -17,6 +18,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
 | :-: | :---: | :---: |:---:|:---:|
+| 2021-05-26 | [A Gentle Introduction to Parallel Processing in R, with Danielle Ferraro](https://www.meetup.com/rladies-santa-barbara/events/278125270/) | https://danielleferraro.github.io/rladies-sb-parallel/#1 |https://github.com/danielleferraro/rladies-sb-parallel |https://bit.ly/3p7T8C5|
 | 2021-04-14 | [An evening of aRt with Ijeamaka Anyene](https://www.meetup.com/rladies-santa-barbara/events/277387983/) | https://bit.ly/3mU6BMn |https://github.com/Ijeamakaanyene/aRt_ggplot| https://bit.ly/3gfzCks |
 | 2021-02-24 | [Putting the FUN in Functions](https://www.meetup.com/rladies-santa-barbara/events/276153970/) | NA |https://github.com/an-bui/RLadiesSB-FUNctions| https://bit.ly/3aUO7qQ |
 | 2020-12-16 | [1st Annual Ugly Plot Contest](https://www.meetup.com/rladies-santa-barbara/events/274923365/) | https://bit.ly/3qYCLYT | https://github.com/an-bui/RLadiesSB-ugly_plot_contest | *NA* |
