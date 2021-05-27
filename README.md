@@ -10,7 +10,6 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-- **April 14, 2021 (05:30-7:00pm PT):** An evening with Ijeamaka Anyene: a viewing party of "aRt + ggplot: exploring radial visualizations" + Q&A! RSVP [here](https://www.meetup.com/rladies-santa-barbara/events/277387983/?_xtd=gatlbWFpbF9jbGlja9oAJGU2YmNmMTg2LTNlODktNDU0Mi04ODg2LTQ4ZWVjZTQ4NjZmMw).
 
 ## Past events
 
