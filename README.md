@@ -10,7 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
-**June 22nd, 2021:** R-Ladies SB x R-Ladies Vancouver joint TidyTuesday event! More info coming soon. 
+**June 22nd, 2021:** R-Ladies SB x R-Ladies Vancouver Tidy Tuesday Collab! RSVP [here](https://www.meetup.com/rladies-santa-barbara/events/278687321/) 
 
 ## Past events
 
