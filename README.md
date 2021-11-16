@@ -10,6 +10,7 @@ Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) fo
 
 ## Upcoming events
 
+* **December 15th, 2021:** R-Ladies SB x Central Coast Python: Data Science with R & Python. RSVP on our Meetup page!
 
 ## Past events
 
