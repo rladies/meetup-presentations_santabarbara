@@ -17,6 +17,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 | Date  | Meetup Event |  Slides | GitHub Repo | Event Recording |
 | :-: | :---: | :---: |:---:|:---:|
+| 2022-06-22 | [Hello Quarto](https://www.meetup.com/rladies-santa-barbara/events/285849847/) | [blog post](https://www.openscapes.org/blog/2022/06/22/hello-quarto/) | NA | https://www.youtube.com/watch?v=azVAl343CIU |
 | 2021-12-15 | [R-Ladies SB x Central Coast Python: Data Science with R & Python](https://www.meetup.com/rladies-santa-barbara/events/281807986/) | https://bit.ly/3q5pC0i | https://github.com/samanthacsik/RLadiesSB-RvsPython & https://github.com/seanhelvey/IntroToPythonForRUsers| https://bit.ly/3sg4CH0 |
 | 2021-06-22 | [R-Ladies SB x R-Ladies Vancouver Tidy Tuesday Collab](https://www.meetup.com/rladies-santa-barbara/events/278687321/) | NA | https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-06-22/readme.md | NA |
 | 2021-05-26 | [A Gentle Introduction to Parallel Processing in R, with Danielle Ferraro](https://www.meetup.com/rladies-santa-barbara/events/278125270/) | https://danielleferraro.github.io/rladies-sb-parallel/#1 |https://github.com/danielleferraro/rladies-sb-parallel |https://bit.ly/3p7T8C5|
