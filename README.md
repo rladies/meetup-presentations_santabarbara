@@ -42,7 +42,7 @@ For ease of access, you can explore and download materials from our past Meetups
 | 2018-05-31 |                                                                                Lightening Talks                                                                                |                                                                                            *NA*                                                                                             |                                <https://github.com/rladies/meetup-presentations_santabarbara/tree/gh-pages/2018_05_31_lightningtalks>                                 |                        *NA*                        |
 | 2018-04-10 |                                                                           R-Ladies SB Kickoff Event                                                                            |                                                                                  <https://bit.ly/2IIic1I>                                                                                   |                                                                                 *NA*                                                                                  |                        *NA*                        |
 
-> > > > > > > Stashed changes
+
 
 ## Code of Conduct
 
