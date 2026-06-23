@@ -1,10 +1,10 @@
-# Welcome to R-Ladies Santa Barbara!
+# Welcome to RLadies+ Santa Barbara!
 
-R-Ladies Santa Barbara welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our non-profit, civil society community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
+RLadies+ Santa Barbara welcomes members of all R proficiency levels, whether you're a new or aspiring R user, or an experienced R programmer interested in mentoring, networking & expert upskilling. Our non-profit, civil society community is designed to develop our members' R skills & knowledge through social, collaborative learning & sharing. Supporting minority identity access to STEM skills & careers, the Free Software Movement, and contributing to the global R community!
 
-A local chapter of [R-Ladies Global](https://rladies.org/), R-Ladies Santa Barbara exists to promote diversity in the R community, both locally and worldwide. We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in and/or working with R. As a founding principle, there is no cost or charge to participate in any of our R-Ladies communities around the world.
+A local chapter of [RLadies+ Global](https://rladies.org/), RLadies+ Santa Barbara exists to promote diversity in the R community, both locally and worldwide. We are pro-actively inclusive of queer, trans, and all minority identities, with additional sensitivity to intersectional identities. Our priority is to provide a safe community space for anyone identifying as a minority gender who is interested in and/or working with R. As a founding principle, there is no cost or charge to participate in any of our RLadies+ communities around the world.
 
-We are part of Global R-Ladies group. You can access our presentations, R scripts and more below, and by exploring the [R-Ladies Global Github account](https://github.com/rladies). Follow us on Bluesky [\@rladiessb.bsky.social](https://bsky.app/profile/rladiessb.bsky.social) to stay up to date about R-Ladies news!
+We are part of the Global RLadies+ group. You can access our presentations, R scripts and more below, and by exploring the [RLadies+ Global Github account](https://github.com/rladies). Follow us on Bluesky [\@rladiessb.bsky.social](https://bsky.app/profile/rladiessb.bsky.social) to stay up to date about RLadies+ news!
 
 Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events.
 
@@ -16,6 +16,7 @@ For ease of access, you can explore and download materials from our past Meetups
 
 | Date | Meetup Event | Slides | GitHub Repo | Event Recording |
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| 2026-05-13 | [Creating your personal website with Quarto](https://www.meetup.com/rladies-santa-barbara/events/314390595/?eventOrigin=notifications&notificationId=%3Cinbox%3E%21277608737-1778709785872) | [Workshop website](https://samanthacsik.github.io/RLadiesSB-quarto-websites/)  | NA | NA |
 | 2026-02-18 | [Wrangling Earth System Model Outputs in R for Marine Ecologists](https://www.meetup.com/rladies-santa-barbara/events/312855430/?eventOrigin=group_past_events) | [Workshop website](https://jessicabolin.github.io/esmrworkshop_rladies26/) | <https://github.com/JessicaBolin/esmrworkshop_rladies26> | <https://www.youtube.com/watch?v=rVFIwIfgIpg> |
 | 2025-11-12 | [#stayrelevant: How to Keep Up with Changes in the R Ecosystem](https://www.meetup.com/rladies-santa-barbara/events/311739680/?eventOrigin=group_events_list) | NA | NA | NA |
 | 2025-10-01 | [Fall Social](R-Ladies Santa Barbara Fall Social) | NA | NA | NA |
