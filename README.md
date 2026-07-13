@@ -6,9 +6,7 @@ A local chapter of [RLadies+ Global](https://rladies.org/), RLadies+ Santa Barba
 
 We are part of the Global RLadies+ group. You can access our presentations, R scripts and more below, and by exploring the [RLadies+ Global Github account](https://github.com/rladies). Follow us on Bluesky [\@rladiessb.bsky.social](https://bsky.app/profile/rladiessb.bsky.social) to stay up to date about RLadies+ news!
 
-Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our events.
-
-## Upcoming events
+Please visit our [Meetup page](https://www.meetup.com/rladies-santa-barbara/) for meetup information and to RSVP to our upcoming events.
 
 ## Past events
 
@@ -51,19 +49,19 @@ For ease of access, you can explore and download materials from our past Meetups
 
 ## Code of Conduct
 
-R-Ladies Santa Barbara is dedicated to providing harassment-free event experiences for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion. We do not tolerate harassment of event participants in any form.
+RLadies+ Santa Barbara is dedicated to providing harassment-free event experiences for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion. We do not tolerate harassment of event participants in any form.
 
-We ask that all participants review and abide by the R-Ladies [Code of Conduct](https://guide.rladies.org/about/coc/).
+We ask that all participants review and abide by the RLadies+ [Code of Conduct](https://guide.rladies.org/about/coc/).
 
 ### Community Policy
 
-The leadership, mentoring & teaching roles within this Community are held exclusively by minority genders (majority gender speakers may be allowed/invited as one-off guests in exceptional circumstances at the leadership team's discretion). Due to unexpected demand, we have opened learning participation to all genders, dependent on initial and on-going vetting by the leadership team. However, the stated priority of the R-Ladies communities is the development & support specifically of those identifying as a minority gender, and we, therefore, reserve the right to guard this interest through whatever measures the leadership team deems appropriate. Anyone involved with R-Ladies Santa Barbara is expected to fully respect each other, the mandate of this community, and the goodwill on which R-Ladies is founded, or face expulsion/a penalty of any form, at the discretion of the leadership team.
+The leadership, mentoring & teaching roles within this Community are held exclusively by minority genders (majority gender speakers may be allowed/invited as one-off guests in exceptional circumstances at the leadership team's discretion). Due to unexpected demand, we have opened learning participation to all genders, dependent on initial and on-going vetting by the leadership team. However, the stated priority of the RLadies+ communities is the development & support specifically of those identifying as a minority gender, and we, therefore, reserve the right to guard this interest through whatever measures the leadership team deems appropriate. Anyone involved with RLadies+ Santa Barbara is expected to fully respect each other, the mandate of this community, and the goodwill on which RLadies+ is founded, or face expulsion/a penalty of any form, at the discretion of the leadership team.
 
 Full community guidelines are found here: <https://guide.rladies.org/>
 
 ## Images/Media
 
-Photographs and/or video/other media may be taken at events held by this community. By taking part in an R-Ladies Santa Barbara event you grant the community organisers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
+Photographs and/or video/other media may be taken at events held by this community. By taking part in an RLadies+ Santa Barbara event you grant the community organisers full rights to use the images resulting from the photography/video filming/media, and any reproductions or adaptations of the images for publicity, fundraising or other purposes to help achieve the community's aims. This might include (but is not limited to), the right to use them in their printed and online publicity, social media, press releases and funding applications. If you do not wish to be recorded in these media please inform a community organizer.
 
 ## Getting Started with R & GitHub
 
